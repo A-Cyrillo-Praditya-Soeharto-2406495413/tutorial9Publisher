@@ -7,9 +7,10 @@ edition = "2021"
 # https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-crosstown_bus = "0.5.0"
+# Update ke 0.5.2
+crosstown_bus = "0.5.2" 
 futures = "0.3"
-borsh = "0.9.3"
-borsh-derive = "0.9.1"
-tokio = {version="1.21.2", features=["full"]}
-
+# Gunakan versi borsh yang konsisten (0.10 ke atas direkomendasikan jika memungkinkan)
+borsh = "0.10.3"
+borsh-derive = "0.10.3"
+tokio = { version = "1.21.2", features = ["full"] }

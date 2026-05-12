@@ -21,3 +21,5 @@ guest:guest — Kredensial: username dan password untuk autentikasi
 localhost:5672 — Lokasi: RabbitMQ broker yang berjalan pada port 5672 di mesin lokal
 
 Kedua program berbagi message broker yang sama, sehingga pesan yang diterbitkan (published) oleh publisher dapat diterima dan diproses (consumed) oleh subscriber pada infrastruktur queue/exchange yang sama.
+
+![RabbitMQ](asset/RabitMQ.png)
