@@ -29,3 +29,5 @@ subscriber get the message from publisher
 
 ![publisher console](asset/publisherconsole.png)
 publisher send the message to subscriber
+
+![rabit mq event spike](asset/RabitMQspike.png)
