@@ -35,3 +35,8 @@ Setiap kali saya menjalankan perintah cargo run di publisher, program akan mengi
 
 ![publisher several times](asset/publisherseveral.png)
 Hal ini terjadi karena Publisher mengirimkan pesan, tetapi tidak ada Subscriber yang mengambil/memproses pesan tersebut, atau Subscriber memprosesnya lebih lambat daripada kecepatan kirim. Angka tersebut merepresentasikan akumulasi pesan yang menumpuk. Angka tersebut merepresentasikan akumulasi pesan yang menumpuk. Saat menjalankan Publisher, Publisher mengirimkan banyak request (dalam mesin saya sekitar 16 request) dalam waktu yang sangat singkat secara bersamaan. Karena Consumer tidak dapat mengimbangi kecepatan pengiriman Producer, sisa pesan yang belum diproses tidak dibuang, melainkan ditampung sementara di dalam queue RabbitMQ.
+
+![subscriber several](asset/subscriberseveral.png)
+karena saya menjalankan 3 subscriber secara bersamaan dan sistem ini menerapkan konsep Competing Consumers. Beban kerja memproses antrean didistribusikan ke tiga subscriber tersebut secara paralel. Karena ada lebih banyak subscriber yang "mengambil" pesan dari antrean di waktu yang sama, tumpukan pesan diproses lebih cepat dan antrean lebih cepat kosong dibandingkan jika hanya menggunakan 1 subscriber seperti sebelumnya.
+
+Menambahkan pengaturan prefetch_count = 1 pada subscriber. Dengan prefetch count, RabbitMQ hanya akan mendistribusikan pesan baru ke subscriber yang sedang tidak sibuk (sudah selesai memproses pesan sebelumnya).
