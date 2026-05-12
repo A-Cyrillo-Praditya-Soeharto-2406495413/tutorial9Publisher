@@ -31,3 +31,7 @@ subscriber get the message from publisher
 publisher send the message to subscriber
 
 ![rabit mq event spike](asset/RabitMQspike.png)
+Setiap kali saya menjalankan perintah cargo run di publisher, program akan mengirimkan message ke RabbitMQ. Spike tersebut menandakan bahwa Publisher berhasil melakukan koneksi dan mengirimkan data ke Exchange pada saat tersebut. Semakin sering perintah dijalankan, semakin tinggi juga puncak lonjakan pada grafik.
+
+![publisher several times](asset/publisherseveral.png)
+Hal ini terjadi karena Publisher mengirimkan pesan, tetapi tidak ada Subscriber yang mengambil/memproses pesan tersebut, atau Subscriber memprosesnya lebih lambat daripada kecepatan kirim. Angka tersebut merepresentasikan akumulasi pesan yang menumpuk. Angka tersebut merepresentasikan akumulasi pesan yang menumpuk. Saat menjalankan Publisher, Publisher mengirimkan banyak request (dalam mesin saya sekitar 16 request) dalam waktu yang sangat singkat secara bersamaan. Karena Consumer tidak dapat mengimbangi kecepatan pengiriman Producer, sisa pesan yang belum diproses tidak dibuang, melainkan ditampung sementara di dalam queue RabbitMQ.
