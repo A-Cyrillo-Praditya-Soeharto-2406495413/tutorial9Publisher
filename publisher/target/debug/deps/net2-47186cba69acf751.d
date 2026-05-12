@@ -1,0 +1,12 @@
+C:\Users\ASUS\Documents\GitHub\tutorial9Publisher\publisher\target\debug\deps\net2-47186cba69acf751.d: C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\lib.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\tcp.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\udp.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\socket.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\ext.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\utils.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\mod.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\impls.rs
+
+C:\Users\ASUS\Documents\GitHub\tutorial9Publisher\publisher\target\debug\deps\libnet2-47186cba69acf751.rmeta: C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\lib.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\tcp.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\udp.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\socket.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\ext.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\utils.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\mod.rs C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\impls.rs
+
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\lib.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\tcp.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\udp.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\socket.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\ext.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\utils.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\mod.rs:
+C:\Users\ASUS\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\net2-0.2.39\src\sys\windows\impls.rs:
