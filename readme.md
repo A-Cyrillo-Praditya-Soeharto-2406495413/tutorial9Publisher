@@ -23,3 +23,9 @@ localhost:5672 — Lokasi: RabbitMQ broker yang berjalan pada port 5672 di mesin
 Kedua program berbagi message broker yang sama, sehingga pesan yang diterbitkan (published) oleh publisher dapat diterima dan diproses (consumed) oleh subscriber pada infrastruktur queue/exchange yang sama.
 
 ![RabbitMQ](asset/RabitMQ.png)
+
+![subscriber console](asset/subscriberconsole.png)
+subscriber get the message from publisher
+
+![publisher console](asset/publisherconsole.png)
+publisher send the message to subscriber
